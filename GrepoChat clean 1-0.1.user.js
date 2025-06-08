@@ -240,7 +240,7 @@
 
             if (btn.label.endsWith('.png')) {
                 const img = document.createElement("img");
-                img.src = `https://github.com/zambia1972/Grepolis-Manager/raw/main/BBcode-buttons/${btn.label}`;
+                img.src = `https://github.com/boodtrap/grepochat/tree/main/BBcode-buttons/${btn.label}`;
                 img.alt = btn.title;
                 img.style.width = "20px";
                 img.style.height = "20px";
